@@ -1,0 +1,9 @@
+{
+	"name": "df-imoveis-alura",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "642d1506-4e01-474b-b606-11895db25d20",
+		"tenantId": "f880a7da-33fa-417d-bffd-bdb13c76ea89"
+	}
+}
