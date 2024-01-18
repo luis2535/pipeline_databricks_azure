@@ -13,7 +13,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/luiseduardobertelli@hotmail.com/pipeline_databricks_azure/notebooks_pyspark/inbound_bronze"
+				},
+				"linkedServiceName": {
+					"referenceName": "Databricks_datafactory_links",
+					"type": "LinkedServiceReference"
+				}
 			},
 			{
 				"name": "ingestao-camada-silver",
@@ -33,7 +40,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/luiseduardobertelli@hotmail.com/pipeline_databricks_azure/notebooks_pyspark/bronze_silver"
+				},
+				"linkedServiceName": {
+					"referenceName": "Databricks_datafactory_links",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
